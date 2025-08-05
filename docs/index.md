@@ -1,7 +1,5 @@
 [001](./001.md)、[解説](./001-description.md)
 
-↑ここまで [448fe81](https://github.com/fiveseven-lambda/gemma-shogi/commit/448fe81666663ab4e930c0f41bfca9ac37769825)
-
 [002](./002.md)
 
 [003](./003.md)
@@ -12,4 +10,8 @@
 
 [006（チェス編）](./006.md)、[解説](./006-description.md)
 
-↑ここまで [2c7510f](https://github.com/fiveseven-lambda/gemma-shogi/commit/2c7510f9d9b7a2f87952b2743ee7924691de64b3)
+[007（オセロ編）](./007.md)
+
+[008（オセロ編）](./008.md)、[解説](./008-description.md)
+
+[009（しりとり編）](./009.md)

@@ -17,9 +17,11 @@ def main():
                 ollama.pull(MODEL)
             else:
                 sys.exit(1)
-    messages = ["Let's play chess. I'll go first. e4."]
-    print("Initial prompt:", messages[0])
-    print()
+    messages = ["しりとりをしましょう。「りんご」"]
+    for i, message in enumerate(messages):
+        print(f"Initial prompt #{i}:\n")
+        print(message)
+        print()
     turn = 0
     while True:
         stream = ollama.chat(
