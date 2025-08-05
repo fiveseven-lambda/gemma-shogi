@@ -17,7 +17,7 @@ def main():
                 ollama.pull(MODEL)
             else:
                 sys.exit(1)
-    messages = ["将棋をしましょう。お互いに実況・解説を交えながら、楽しく戦いましょう。こちらが先手です。7六歩"]
+    messages = ["Let's play chess. I'll go first. e4."]
     print("Initial prompt:", messages[0])
     print()
     turn = 0
