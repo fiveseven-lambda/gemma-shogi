@@ -17,7 +17,7 @@ def main():
                 ollama.pull(MODEL)
             else:
                 sys.exit(1)
-    messages = ["しりとりをしましょう。「りんご」"]
+    messages = ["Let's play chess. I'll go first. e4."]
     for i, message in enumerate(messages):
         print(f"Initial prompt #{i}:\n")
         print(message)
