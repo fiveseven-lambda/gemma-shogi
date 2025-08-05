@@ -1,4 +1,4 @@
-[001](./001.md)
+[001](./001.md)、[解説](./001-description.md)
 
 ↑ここまで [448fe81](https://github.com/fiveseven-lambda/gemma-shogi/commit/448fe81666663ab4e930c0f41bfca9ac37769825)
 
