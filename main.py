@@ -1,7 +1,7 @@
 import sys
 import ollama
 
-MODEL = "gemma3:4b"
+MODEL = "gemma3:1b"
 
 
 def main():
@@ -17,7 +17,7 @@ def main():
                 ollama.pull(MODEL)
             else:
                 sys.exit(1)
-    messages = ["Let's play chess. I'll go first. e4."]
+    messages = ["""私とゲームで勝負しましょう。"""]
     for i, message in enumerate(messages):
         print(f"Initial prompt #{i}:\n")
         print(message)
