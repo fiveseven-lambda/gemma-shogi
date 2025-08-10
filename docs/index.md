@@ -34,3 +34,4 @@
 
 [019 （ストーリーテリング）](./019.md)
 
+[ソースコード](https://github.com/fiveseven-lambda/gemma-shogi)

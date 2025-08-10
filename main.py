@@ -1,7 +1,7 @@
 import sys
 import ollama
 
-MODEL = "gemma3:1b"
+MODEL = "gemma3:12b"
 
 
 def main():
